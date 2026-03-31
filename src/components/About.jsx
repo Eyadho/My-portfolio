@@ -8,6 +8,8 @@ const skills = [
   { name: "UX Design", icon: "✏️" },
   { name: "E-commerce", icon: "🛒" },
   { name: "Responsive Design", icon: "📱" },
+  { name: "Firebase", icon: "🔥" },
+  { name: "PHP & MySQL", icon: "🐘" },
 ]
 
 function About() {
@@ -35,7 +37,8 @@ function About() {
           <p className="text-gray-500 leading-relaxed">
             Under min utbildning har jag arbetat med teknologier som React,
             JavaScript och moderna CSS-verktyg, samt fått en stark förståelse
-            för användarbeteende och digitala affärer.
+            för användarbeteende och digitala affärer. 
+            Jag är en nyfiken och lösningsorienterad person som trivs med att lära mig nya tekniker och arbeta med verkliga problem.
           </p>
         </motion.div>
 

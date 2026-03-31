@@ -44,7 +44,8 @@ function Hero() {
           {/* STATUS BADGE */}
           <motion.div variants={item} className="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-3 py-1.5 text-xs text-gray-500 mb-8">
             <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-            Available for work
+            {/* Available for work */}
+            Söker LIA-praktik
           </motion.div>
 
           {/* HEADING */}
@@ -54,7 +55,7 @@ function Hero() {
             style={{ fontFamily: "'DM Serif Display', serif" }}
           >
             Hej, jag är{" "} <br />
-            <em className="text-primary not-italic font-bold">Eyad Hussen</em>
+            <em className="text-primary not-italic font-bold mt-2 block">Eyad Hussen</em>
           </motion.h1>
 
           {/* ROLE */}
@@ -70,8 +71,8 @@ function Hero() {
             variants={item}
             className="text-base leading-relaxed text-gray-500 mb-10 font-light"
           >
-            Jag utvecklar moderna, responsiva och användarvänliga webbplatser
-            med fokus på frontend, UX och e-handel.
+            Jag bygger moderna och responsiva webbplatser där teknik möter användarupplevelse.
+            Just nu söker jag en LIA-praktik där jag kan bidra och växa inom frontend, UX eller e-handel.
           </motion.p>
 
           {/* BUTTONS */}
