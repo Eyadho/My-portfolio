@@ -29,7 +29,7 @@ const projects = [
   {
     title: "Login / Sign Up",
     description: "A modern and responsive Login / Sign Up interface.",
-    image: project3,
+    image: project4,
     live: "https://eyadho.github.io/Login-Sign-Up/",
     github: "https://github.com/Eyadho/Login-Sign-Up"
   }
