@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 import project1 from "../assets/project-1.png"
 import project2 from "../assets/project-2.png"
 import project3 from "../assets/project-3.png"
+import project4 from "../assets/project-4.png"
 
 const projects = [
   {
@@ -24,6 +25,13 @@ const projects = [
     image: project3,
     live: "https://github.com/Eyadho/webshop-php-mysql?tab=readme-ov-file#%EF%B8%8F-setup--installation",
     github: "https://github.com/Eyadho/webshop-php-mysql"
+  },
+  {
+    title: "Login / Sign Up",
+    description: "A modern and responsive Login / Sign Up interface.",
+    image: project3,
+    live: "https://eyadho.github.io/Login-Sign-Up/",
+    github: "https://github.com/Eyadho/Login-Sign-Up"
   }
 ]
 
