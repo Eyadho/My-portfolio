@@ -8,8 +8,11 @@ const skills = [
   { name: "UX Design", icon: "✏️" },
   { name: "E-commerce", icon: "🛒" },
   { name: "Responsive Design", icon: "📱" },
+  { name: "Git & GitHub", icon: "🔀" },
   { name: "Firebase", icon: "🔥" },
   { name: "PHP & MySQL", icon: "🐘" },
+  { name: "SEO", icon: "📈" },
+  { name: "QA & Testning", icon: "🔍" },
 ]
 
 function About() {
