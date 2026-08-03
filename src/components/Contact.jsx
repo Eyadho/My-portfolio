@@ -29,7 +29,7 @@ function Contact() {
             Kontakta mig
           </h2>
           <p className="text-gray-500">
-            Jag söker en LIA-praktik inom frontend, UX eller e-handel. Tveka
+            Jag söker jobb inom frontend, UX eller e-handel. Tveka
             inte att höra av dig!
           </p>
         </motion.div>
