@@ -18,12 +18,10 @@ const skills = [
 function About() {
   return (
     <section id="about" className="relative py-32 bg-[#f8f9ff] overflow-hidden">
-
       {/* BACKGROUND GLOW */}
       <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-primary/10 blur-3xl rounded-full"></div>
 
       <div className="max-w-6xl mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-10 md:gap-16 items-center relative z-10">
-
         {/* TEXT CARD */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -33,15 +31,26 @@ function About() {
         >
           <h2 className="text-4xl font-bold mb-6">Om mig</h2>
           <p className="text-gray-600 mb-6 leading-relaxed">
-            Jag är en webbutvecklare med fokus på frontend, UX och e-handel.
-            Jag brinner för att skapa moderna och användarvänliga digitala
-            upplevelser som inte bara ser bra ut – utan också fungerar effektivt.
+            Jag är en webbutvecklare med fokus på frontend, UX och e-handel. Jag
+            brinner för att skapa moderna och användarvänliga digitala
+            upplevelser som inte bara ser bra ut – utan också fungerar
+            effektivt.
           </p>
           <p className="text-gray-500 leading-relaxed">
-            Under min utbildning har jag arbetat med teknologier som React,
+            {/* Under min utbildning har jag arbetat med teknologier som React,
             JavaScript och moderna CSS-verktyg, samt fått en stark förståelse
             för användarbeteende och digitala affärer. 
-            Jag är en nyfiken och lösningsorienterad person som trivs med att lära mig nya tekniker och arbeta med verkliga problem.
+            Jag är en nyfiken och lösningsorienterad person som trivs med att lära mig nya tekniker och arbeta med verkliga problem. */}
+            
+            Under min utbildning och LIA har jag arbetat med teknologier som
+            React, JavaScript, Shopify, moderna CSS-verktyg, UX, SEO och
+            kvalitetssäkring i agila utvecklingsmiljöer, samt fått en stark
+            förståelse för användarbeteende och digitala affärer. Jag är en
+            nyfiken och lösningsorienterad person som trivs med att lära mig nya
+            tekniker och arbeta med verkliga problem. Nu söker jag en tjänst som
+            Junior Frontend Developer eller Webbutvecklare där jag kan fortsätta
+            utvecklas och bidra med både teknisk kompetens och ett
+            användarfokuserat arbetssätt.
           </p>
         </motion.div>
 
@@ -63,10 +72,9 @@ function About() {
             </motion.div>
           ))}
         </motion.div>
-
       </div>
     </section>
-  )
+  );
 }
 
 export default About
