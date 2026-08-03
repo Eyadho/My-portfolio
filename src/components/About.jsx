@@ -36,11 +36,7 @@ function About() {
             upplevelser som inte bara ser bra ut – utan också fungerar
             effektivt.
           </p>
-          <p className="text-gray-500 leading-relaxed">
-            {/* Under min utbildning har jag arbetat med teknologier som React,
-            JavaScript och moderna CSS-verktyg, samt fått en stark förståelse
-            för användarbeteende och digitala affärer. 
-            Jag är en nyfiken och lösningsorienterad person som trivs med att lära mig nya tekniker och arbeta med verkliga problem. */}
+          <p className="text-gray-600 leading-relaxed">
             
             Under min utbildning och LIA har jag arbetat med teknologier som
             React, JavaScript, Shopify, moderna CSS-verktyg, UX, SEO och
