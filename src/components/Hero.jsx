@@ -63,7 +63,7 @@ function Hero() {
             variants={item}
             className="text-xl text-gray-600 mb-4 font-light"
           >
-            Junior Frontend Developer med fokus på UX och e-handel
+            Junior Frontend Developer med fokus på e-handel och UX
           </motion.h2>
 
           {/* DESC */}
