@@ -72,7 +72,7 @@ function Hero() {
             className="text-base leading-relaxed text-gray-500 mb-10 font-light"
           >
             Jag bygger moderna och responsiva webbplatser där teknik möter användarupplevelse.
-            Just nu söker jag en LIA-praktik där jag kan bidra och växa inom frontend, UX eller e-handel.
+            Just nu söker jag ett jobb där jag kan bidra och växa inom frontend, UX eller e-handel.
           </motion.p>
 
           {/* BUTTONS */}
