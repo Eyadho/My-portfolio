@@ -45,7 +45,7 @@ function Hero() {
           <motion.div variants={item} className="inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-3 py-1.5 text-xs text-gray-500 mb-8">
             <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
             {/* Available for work */}
-            Söker LIA-praktik
+            Söker Jobb
           </motion.div>
 
           {/* HEADING */}
@@ -63,7 +63,7 @@ function Hero() {
             variants={item}
             className="text-xl text-gray-600 mb-4 font-light"
           >
-            Frontend Developer med fokus på UX och e-handel
+            Junior Frontend Developer med fokus på UX och e-handel
           </motion.h2>
 
           {/* DESC */}
